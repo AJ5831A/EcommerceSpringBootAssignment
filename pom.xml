@@ -34,6 +34,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
+		<!-- Cashfree Java SDK -->
+		<dependency>
+			<groupId>com.cashfree.pg.java</groupId>
+			<artifactId>cashfree_pg</artifactId>
+			<version>4.2.2</version> <!-- Use the latest version from Maven Central -->
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>

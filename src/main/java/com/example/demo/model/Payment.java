@@ -12,4 +12,7 @@ public class Payment {
     private String orderId;
     private double amount;
     private String status;
+    private String cashfreeOrderId;
+    private String paymentSessionId;
+
 }
